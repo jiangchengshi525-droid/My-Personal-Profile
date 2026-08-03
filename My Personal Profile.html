@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <style>
+        body{
+            background: #54cfb2; 
+
+            font-family:
+            Arial,
+            "Microsoft YaHei"
+            sans-serif;
+        }
+
+        h1{
+            color: #003892;
+            text-align: center;
+        }
+
+        p{
+            color:#555 ;
+            line-height: 1.8;
+        }
+
+        header{
+            text-align: center;
+        }
+
+        section{
+            background: #FFFFFF;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        header img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人主页</title>
+</head>
+<body>
+    <header>
+        <img src="avatar.jpg" alt="梨花的头像" style="">
+        <h1>梨花</h1>
+        <p>一个爱看演唱会的计科小登</p>
+    </header>
+    <main>
+        <section>
+            <h2>个人介绍</h2>
+
+            <p>
+                大二在读，目前有过VibeCoding独立开发一个取号网站和一个演唱会记录APP的项目经历，均采用CloudBase作为后端。目前正在学习前端HTML和CSS，希望能独立开发出一个个人博客。
+            </p>
+        </section>
+
+        <section>
+            <h2>我的技能</h2>
+
+            <ul>
+                <li>HTML（学习中）</li>
+                <li>CSS（学习中）</li>
+                <li>Python</li>
+                <li>C语言</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>我的爱好</h2>
+            <ul>
+                <li>音乐🎶</li>
+                <li>旅行🧳</li>
+                <li>摄影📹</li>
+                <li>美食😋</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>我的项目</h2>
+            <article>
+
+                <h3>项目1：物料申领系统</h3>
+                <p>
+                    <strong>介绍：</strong>
+                    该项目全程采用VibeCoding，是一个面向演唱会及粉丝活动的物料申领管理系统。
+                </p>
+                <p>
+                    <strong>技术：</strong>
+                </p>
+
+                <ul>
+                    <li>前端：Vue 3、Vite、Vue Router、Element Plus</li>
+                    <li>后端：腾讯云 CloudBase 云函数</li>
+                    <li>数据：CloudBase 云数据库</li>
+                    <li>部署：CloudBase 静态网站托管</li>
+                    <li>UI：新粗野主义设计风格</li>
+                </ul>
+
+                <p>
+                    <strong>主要功能：</strong>
+                </p>
+
+                <ul>
+                    <li>不同物料独立限量抢号及排行榜</li>
+                    <li>同一手机号的多物料资格自动合并</li>
+                    <li>用户填写资料、上传截图并查询审核进度</li>
+                    <li>审核员在线分配任务、审核、驳回及连续处理</li>
+                    <li>生成核销码，支持扫码和手动核销</li>
+                    <li>限时核销、过期资格释放及库存统计</li>
+                    <li>场次、物料库存、申领须知和数据统计管理</li>
+                </ul>
+
+            </article>
+
+            <article>
+
+                <h3>项目2：演唱会记录APP</h3>
+                
+                <p>
+                    <strong>介绍：</strong>
+                    “酒菜命好”是一款演唱会记录 APP，是为酒菜量身打造的一款APP。
+                </p>
+
+                <p>
+                    <strong>技术：</strong>
+                </p>
+
+                <ul>
+                    <li>客户端：Flutter、Dart、Material Design</li>
+                    <li>状态管理：Provider</li>
+                    <li>本地存储：SQLite（sqflite）、SharedPreferences、Secure Storage</li>
+                    <li>云服务：腾讯云 CloudBase（认证、数据库、文件存储、静态托管）</li>
+                    <li>网络通信：Dio</li>
+                    <li>多媒体与地图：Image Picker、PhotoView、Just Audio、Flutter Map</li>
+                    <li>其他：ML Kit 文字识别、Connectivity Plus 网络检测、OTA 版本更新</li>
+                </ul>
+
+                <p>
+                    <strong>主要功能：</strong>
+                </p>
+
+                <ul>
+                    <li>记录演唱会、音乐节、参演艺人、歌单、同行伙伴和消费</li>
+                    <li>管理现场照片、演出封面、照片墙及观演日记</li>
+                    <li>统计艺人见面次数、演出足迹和个人观演数据</li>
+                    <li>好友邀请、聊天及好友足迹查看</li>
+                    <li>账号登录、跨设备云同步、离线保存及版本更新</li>
+                </ul>
+
+            </article>
+        </section>
+
+        <section>
+            <h2>联系我</h2>
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">访问我的GitHub</a>
+        </section>
+
+    </main>
+    <footer>
+        <p>
+            © 2026 梨花. All Rights Reserved.
+        </p>
+    </footer>
+
+</body>
+</html>
