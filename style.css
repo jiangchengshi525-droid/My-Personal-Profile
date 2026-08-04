@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #54cfb2; 
+    font-family:
+    Arial,
+    "Microsoft YaHei",
+    sans-serif;
+}
+
+h1,
+h2,
+h3{
+    color: #003892;
+    text-align: center;
+}
+
+p{
+    color:#555 ;
+    line-height: 1.8;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+section{
+    background:#ffffff;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+    margin: 30px auto;
+    padding: 25px;
+    max-width: 900px;
+    border-radius: 15px;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+a{
+    color: #003892;
+}
+a:visited{
+    color: #555;
+}
+a:hover{
+    color: #f3c62f;
+}
+
+.tag{
+    background:#e94d96;
+    color:#ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin: 10px 0;
+    width: fit-content;
+    list-style-position:inside;
+}
+.tag-list{
+    padding:0;
+}
