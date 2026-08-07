@@ -8,49 +8,279 @@
 </head>
 <body>
     <header>
-        <img src="./image/avatar.jpg" alt="梨花的头像">
-        <h1>梨花</h1>
-        <p>一个爱看演唱会的计科小登</p>
+        
+        <div class="logo">
+            梨花
+        </div>
+
+        <nav>
+
+            <a href="#about" class="active">
+                关于我
+            </a>
+
+            <a href="#skill">
+                技能
+            </a>
+
+            <a href="#hobby">
+                爱好
+            </a>
+
+            <a href="#contact">
+                联系方式
+            </a>
+
+        </nav>
+
     </header>
+
     <main>
-        <section>
-            <h2>个人介绍</h2>
 
+    <section class="hero">
+
+        <div class="hero-text">
+    
+            <h1>
+                你好，
+                我是<span>梨花</span>
+            </h1>
+    
             <p>
-                大二在读，目前有过VibeCoding独立开发一个取号网站和一个演唱会记录APP的项目经历，均采用CloudBase作为后端。目前正在学习前端HTML和CSS，希望能独立开发出一个个人博客。
+                一个爱看演唱会的计科小登
             </p>
+    
+            <p>
+                大二在读，热爱技术与创造，
+                希望通过代码实现有趣的想法。
+            </p>
+    
+            <a href="#about">
+                认识我 →
+            </a>
+    
+        </div>
+        
+        <div class="hero-img-bg"></div>
+
+        <div class="hero-img">
+    
+            <img src="./image/avatar.jpg" alt="梨花的头像">
+    
+        </div>
+    
+        <div class="decoration-circle"></div>
+        <div class="decoration-left"></div>
+        <div class="dot-grid"></div>
+        <div class="hero-ring"></div>
+        <div class="hero-ring ring-small"></div>
+
+    </section>
+
+    <!-- 关于我 + 技能 -->
+    
+        <section class="info">
+            <section class="card" id="about">
+
+                <div class="card-decoration"></div>
+
+                <h2>
+                    个人介绍
+                </h2>
+
+                <div class="title-line"></div>
+
+                <p>
+                    大二在读，目前有过VibeCoding独立开发一个取号网站和一个演唱会记录APP的项目经历，均采用CloudBase作为后端。
+                </p>
+
+                <p>
+                    目前正在学习前端HTML和CSS，希望能独立开发出一个个人博客。
+                </p>
+
+            </section>
+
+            <section class="card" id="skill">
+
+                <div class="card-decoration"></div>
+
+                <h2>
+                    我的技能
+                </h2>
+
+                <div class="title-line"></div>
+
+                <div class="skill-list">
+
+                    <div class="skill-item">
+                
+                        <span class="skill-name">
+                            HTML
+                        </span>
+                
+                        <div class="skill-bar">
+                
+                            <div class="skill-progress html"></div>
+                
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="skill-item">
+                
+                        <span class="skill-name">
+                            CSS
+                        </span>
+                
+                        <div class="skill-bar">
+                
+                            <div class="skill-progress css"></div>
+                
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="skill-item">
+                
+                        <span class="skill-name">
+                            Python
+                        </span>
+                
+                        <div class="skill-bar">
+                
+                            <div class="skill-progress python"></div>
+                
+                        </div>
+                
+                    </div>
+                
+                
+                    <div class="skill-item">
+                
+                        <span class="skill-name">
+                            C语言
+                        </span>
+                
+                        <div class="skill-bar">
+                
+                            <div class="skill-progress c"></div>
+                
+                        </div>
+                
+                    </div>
+                
+                </div>
+
+            </section>
+
         </section>
 
-        <section>
-            <h2>我的技能</h2>
+        <!-- 爱好 -->
+        
+        <section class="hobby" id="hobby">
 
-            <ul>
-                <li class="tag">HTML（学习中）</li>
-                <li class="tag">CSS（学习中）</li>
-                <li class="tag">Python</li>
-                <li class="tag">C语言</li>
-            </ul>
+            <div class="card-decoration"></div>
+
+            <h2>
+                我的爱好
+            </h2>
+
+            <div class="title-line"></div>
+
+            <div class="hobby-list">
+
+                <div class="hobby-item">
+            
+                    <div class="hobby-icon">
+                        🎶
+                    </div>
+            
+                    <h3>
+                        音乐
+                    </h3>
+            
+                    <p>
+                        Live 是生活的充电站
+                    </p>
+            
+                </div>
+            
+            
+                <div class="hobby-item">
+            
+                    <div class="hobby-icon">
+                        🧳
+                    </div>
+            
+                    <h3>
+                        旅行
+                    </h3>
+            
+                    <p>
+                        去不同的地方看风景
+                    </p>
+            
+                </div>
+            
+            
+                <div class="hobby-item">
+            
+                    <div class="hobby-icon">
+                        📷
+                    </div>
+            
+                    <h3>
+                        摄影
+                    </h3>
+            
+                    <p>
+                        用镜头记录美好瞬间
+                    </p>
+            
+                </div>
+            
+            
+                <div class="hobby-item">
+            
+                    <div class="hobby-icon">
+                        😋
+                    </div>
+            
+                    <h3>
+                        美食
+                    </h3>
+            
+                    <p>
+                        探索美味治愈心情
+                    </p>
+            
+                </div>
+            
+            </div>
+
         </section>
 
-        <section class="about">
-            <h2>我的爱好</h2>
-            <ul>
-                <li class="tag">音乐🎶</li>
-                <li class="tag">旅行🧳</li>
-                <li class="tag">摄影📹</li>
-                <li class="tag">美食😋</li>
-            </ul>
-        </section>
+        <section class="projects" id="projects">
 
-        <section>
-            <h2>我的项目</h2>
+            <h2>
+                我的项目
+            </h2>
+
+            <div class="title-line"></div>
+
             <article class="project-card">
 
-                <h3>项目1：物料申领系统</h3>
+                <h3>
+                    项目1：物料申领系统
+                </h3>
+
                 <p>
                     <strong>介绍：</strong>
                     该项目全程采用VibeCoding，是一个面向演唱会及粉丝活动的物料申领管理系统。
                 </p>
+
                 <p>
                     <strong>技术：</strong>
                 </p>
@@ -115,14 +345,27 @@
                 </ul>
 
             </article>
+
         </section>
 
-        <section>
-            <h2>联系我</h2>
-            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">访问我的GitHub</a>
+        <!-- 联系 -->
+        
+        <section class="contact" id="contact">
+
+            <h2>
+                联系我
+            </h2>
+
+            <div class="title-line"></div>
+
+            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                访问我的GitHub
+            </a>
+
         </section>
 
     </main>
+
     <footer>
         <p>
             © 2026 梨花. All Rights Reserved.
@@ -130,4 +373,5 @@
     </footer>
 
 </body>
+
 </html>
